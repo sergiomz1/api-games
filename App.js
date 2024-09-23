@@ -9,7 +9,8 @@ export default function App() {
     <SafeAreaProvider>
       <View style={styles.container}>
         <Text>Hola mundo</Text>
-        <StatusBar style="auto" />
+        <StatusBar style="light" />
+        <Main />
       </View>
     </SafeAreaProvider>
   );
@@ -21,5 +22,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#001",
     alignItems: "center",
     justifyContent: "center",
+    paddingHorizontal: 12,  
   },
 });
